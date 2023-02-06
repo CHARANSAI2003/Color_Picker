@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Color Picker.css">
+    <script src="Color Picker.js"></script>
+</head>
+
+<body>
+    <div id="colorPickerContainer" class="d-flex flex-column justify-content-end">
+        <h1>COLOR PICKER</h1>
+        <div class="mt-3 mb-3">
+            <button class="button button-1" id="button1" onclick="changeBgToGreyAndUpdateText()">#e0e0e0</button>
+            <button class="button button-2" id="button2" onclick="changeBgToGreenAndUpdateText()">#6fcf97</button>
+            <button class="button button-3" id="button3" onclick="changeBgToBlueAndUpdateText()">#56ccf2</button>
+            <button class="button button-4" id="button4" onclick="changeBgToPurpleAndUpdateText()">#bb6bd9</button>
+        </div>
+        <p class="span-Element" id="spanElement">Background Color : <span class="span-Element" id="selectedColorHexCode">#fffff</span></p>
+        <p>Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+</body>
+
+</html>
